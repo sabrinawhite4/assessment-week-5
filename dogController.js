@@ -22,14 +22,14 @@ module.exports = {
         let {type} = req.body
         let index = dogs.findIndex(elem => +elem.id === +id)
 
-        if (dogs[index].sweetnessLevel <= 10000 && type ===  'minus') {
-            dogs[index].sweetnessLevel = 0
+        if (dogs[index].cuteness <= 10000 && type ===  'minus') {
+            dogs[index].cuteness = 0
             res.status(200).send(dogs)
         } else if (type === 'plus') {
-            dogs[index].sweetnessLevel += 10000
+            dogs[index].cuteness += 10000
             res.status(200).send(dogs)
         } else if (type === 'minus') {
-            dogs[index].sweetnessLevel -= 10000
+            dogs[index].cuteness -= 10000
             res.status(200).send(dogs)
         } else {
             res.sendStatus(400)

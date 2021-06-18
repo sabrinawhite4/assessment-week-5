@@ -2,19 +2,19 @@
     {
       "id": 1,
       "name": "Ollie",
-      "sweetness level": 10,
+      "cuteness": 10,
       "imageURL" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoDm-J3Pr9R5eJpQItxV8WRnacuseaSgauuQ&usqp=CAU"
     },
     {
       "id": 2,
       "name": "Odin",
-      "sweetness level": 9,
+      "cuteness": 9,
       "imageURL" : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*"
     },
     {
       "id": 3,
       "name": "Max",
-      "sweetness level": 7,
+      "cuteness": 7,
       "imageURL" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa4PYuH7IsBIoSNarq-9pAzWrW0n07K8pXaQ&usqp=CAU"
     }
   ]
